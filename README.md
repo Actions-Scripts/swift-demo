@@ -1,5 +1,3 @@
-# swift-demo
-
 A Swift scientific calculator CLI application that demonstrates:
 
 - **Basic arithmetic** — addition, subtraction, multiplication, division, modulo
