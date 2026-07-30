@@ -1,0 +1,23 @@
+# Swift build artifacts
+.build/
+*.o
+*.d
+
+# Xcode
+*.xcodeproj/
+xcuserdata/
+*.xcworkspace/
+DerivedData/
+
+# Swift Package Manager
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Editor
+.swiftpm/
+
+# Test results
+TestResults/
+*.xcresult
