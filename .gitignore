@@ -21,3 +21,6 @@ Package.resolved
 # Test results
 TestResults/
 *.xcresult
+
+# Mac hiddne files
+.DS_Store

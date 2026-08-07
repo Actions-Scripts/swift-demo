@@ -65,3 +65,5 @@ swift build
 ```bash
 swift test
 ```
+
+## Enjoy!
