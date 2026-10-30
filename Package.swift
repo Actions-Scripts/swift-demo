@@ -27,7 +27,7 @@ let package = Package(
         // Intentionally fixed at an older release so Dependabot can propose updates.
         .package(
             url: "https://github.com/apple/swift-collections",
-            exact: "1.0.4"
+            exact: "1.7.5"
         ),
         .package(
             url: "https://github.com/apple/swift-algorithms",
