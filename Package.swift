@@ -22,7 +22,7 @@ let package = Package(
         // NOTE: Yams 4.0.6 is vulnerable to GHSA-6fhg-9rjq-xqfq (Billion Laughs / alias chaining DoS)
         .package(
             url: "https://github.com/jpsim/Yams",
-            exact: "4.0.6"
+            exact: "6.2.2"
         ),
         // Intentionally fixed at an older release so Dependabot can propose updates.
         .package(
