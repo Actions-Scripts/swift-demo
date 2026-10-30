@@ -10,7 +10,7 @@ A Swift scientific calculator CLI application that demonstrates:
 
 ## Dependencies
 
-| Package | Version | Notes |
+| Package | Version | Notes |asdf
 |---------|---------|-------|
 | [`swift-argument-parser`](https://github.com/apple/swift-argument-parser) | 1.2.0+ | CLI subcommand framework |
 | [`CryptoSwift`](https://github.com/krzyzanowskim/CryptoSwift) | 1.4.1 | Cryptographic hashing (MD5/SHA256) for history checksums |
