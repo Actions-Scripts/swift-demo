@@ -15,8 +15,11 @@ A Swift scientific calculator CLI application that demonstrates:
 | [`swift-argument-parser`](https://github.com/apple/swift-argument-parser) | 1.2.0+ | CLI subcommand framework |
 | [`CryptoSwift`](https://github.com/krzyzanowskim/CryptoSwift) | 1.4.1 | Cryptographic hashing (MD5/SHA256) for history checksums |
 | [`Yams`](https://github.com/jpsim/Yams) | 4.0.6 | YAML configuration file parsing |
+| [`swift-collections`](https://github.com/apple/swift-collections) | 1.0.4 | Collection data structures for future history and result handling |
+| [`swift-algorithms`](https://github.com/apple/swift-algorithms) | 1.0.0 | Sequence algorithms for future calculation processing |
+| [`swift-numerics`](https://github.com/apple/swift-numerics) | 1.0.2 | Numerical types and algorithms for future scientific operations |
 
-> **Note:** `CryptoSwift` 1.4.1 and `Yams` 4.0.6 are intentionally pinned at older versions containing known security advisories, to demonstrate how GitHub's dependency scanning and CodeQL AI findings surface vulnerability data.
+> **Note:** All versions above are intentionally fixed at older releases so Dependabot's weekly Swift update job can create version-update pull requests. `CryptoSwift` 1.4.1 and `Yams` 4.0.6 also contain known security advisories, to demonstrate how GitHub's dependency scanning and CodeQL AI findings surface vulnerability data.
 
 ## Usage
 
