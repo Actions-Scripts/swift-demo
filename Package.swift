@@ -35,7 +35,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/apple/swift-numerics",
-            exact: "1.0.2"
+            exact: "1.1.1"
         ),
     ],
     targets: [
