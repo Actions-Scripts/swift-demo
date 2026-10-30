@@ -24,6 +24,19 @@ let package = Package(
             url: "https://github.com/jpsim/Yams",
             exact: "4.0.6"
         ),
+        // Intentionally fixed at an older release so Dependabot can propose updates.
+        .package(
+            url: "https://github.com/apple/swift-collections",
+            exact: "1.0.4"
+        ),
+        .package(
+            url: "https://github.com/apple/swift-algorithms",
+            exact: "1.0.0"
+        ),
+        .package(
+            url: "https://github.com/apple/swift-numerics",
+            exact: "1.0.2"
+        ),
     ],
     targets: [
         .executableTarget(
