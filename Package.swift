@@ -16,7 +16,7 @@ let package = Package(
         // NOTE: CryptoSwift 1.4.1 uses deprecated MD5/SHA1 implementations
         .package(
             url: "https://github.com/krzyzanowskim/CryptoSwift",
-            exact: "1.4.1"
+            exact: "1.10.0"
         ),
         // YAML configuration file parsing
         // NOTE: Yams 4.0.6 is vulnerable to GHSA-6fhg-9rjq-xqfq (Billion Laughs / alias chaining DoS)
